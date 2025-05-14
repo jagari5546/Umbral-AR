@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QCARConfig>
+    <Tracking>
+        <ModelTarget name="mujerbaranda" trackingMode="car" motionHint="adaptive" upVector="0.0 1.0 0.0" optimizeTrackingFor="default"></ModelTarget>
+    </Tracking>
+    <Assembly name="mujerbaranda" assemblyId="24a10d8611e74ff5a24b3ac05e2914df">
+        <Part name="mujerbaranda" translation="0 0 0" rotation="AD: 0 0 1 0"></Part>
+        <EntryPoint name="(none)" trained="yes"></EntryPoint>
+    </Assembly>
+</QCARConfig>
