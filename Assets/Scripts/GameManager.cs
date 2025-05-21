@@ -7,20 +7,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject[] ModelsPanels;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private static GameManager instance;
-
-    private void Awake()
-    {
-        if (instance != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-    }
+    
 
     void Start()
     {
@@ -36,22 +23,5 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void LoadARCamera()
-    {
-        SceneManager.LoadScene("ModoAR");
-    }
-    public void LoadMap()
-    {
-        SceneManager.LoadScene("MapaInteractivo");
-    }
-
-    public void CloseApplication()
-    {
-        Application.Quit();
-    }
-
-    private void loadScene(string scene)
-    {
-        SceneManager.LoadScene(scene);
-    }
+    
 }
