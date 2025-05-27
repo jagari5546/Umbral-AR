@@ -4,11 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void LoadARCamera()
-    {
-        SceneManager.LoadScene("ModoAR");
-        
-    }
     public void LoadMap()
     {
         SceneManager.LoadScene("MapaInteractivo");
@@ -23,4 +18,20 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(scene);
     }
+    public void LoadMujerBaranda()
+    {
+        SceneManager.LoadScene("ModoARMujerBaranda");
+        
+    }
+    public void LoadMomentos()
+    {
+        SceneManager.LoadScene("ModoARMomentos");
+        
+    }
+    public void LoadBicicleta()
+    {
+        SceneManager.LoadScene("ModoARBicicleta");
+        
+    }
+    
 }
