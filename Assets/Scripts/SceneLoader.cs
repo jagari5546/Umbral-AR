@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,6 +7,7 @@ public class SceneLoader : MonoBehaviour
     public void LoadARCamera()
     {
         SceneManager.LoadScene("ModoAR");
+        
     }
     public void LoadMap()
     {
