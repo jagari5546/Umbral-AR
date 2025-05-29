@@ -1,0 +1,2 @@
+C:\Users\jagar\OneDrive\Escritorio\Gits\Umbral-AR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\jagar\OneDrive\Escritorio\Gits\Umbral-AR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

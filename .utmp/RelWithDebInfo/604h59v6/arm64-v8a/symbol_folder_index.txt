@@ -1,0 +1,1 @@
+C:\Users\jagar\OneDrive\Escritorio\Gits\Umbral-AR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\604h59v6\obj\arm64-v8a
